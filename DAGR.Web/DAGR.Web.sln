@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAGR.Web", "DAGR.Web\DAGR.Web.csproj", "{6CE59023-5B16-4A44-9405-B5BBF3BAE764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAGR.Data", "DAGR.Data\DAGR.Data.csproj", "{226E7953-8273-42C9-BEFA-F6C24C18FF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE59023-5B16-4A44-9405-B5BBF3BAE764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE59023-5B16-4A44-9405-B5BBF3BAE764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE59023-5B16-4A44-9405-B5BBF3BAE764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE59023-5B16-4A44-9405-B5BBF3BAE764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226E7953-8273-42C9-BEFA-F6C24C18FF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226E7953-8273-42C9-BEFA-F6C24C18FF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{226E7953-8273-42C9-BEFA-F6C24C18FF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226E7953-8273-42C9-BEFA-F6C24C18FF85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22810257-6F8A-4A95-84DC-CE3567DB16F0}
+	EndGlobalSection
+EndGlobal

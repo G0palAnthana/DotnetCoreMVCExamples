@@ -1,0 +1,62 @@
+﻿@model IEnumerable<DAGR.Web.Models.BookListingViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Books List</h2>
+
+<p>
+    @*<a asp-action="CreateNewBook">Create New Book</a>*@
+    @Html.ActionLink("Create New Book", "CreateNewBook", new { /* id=item.PrimaryKey */ })
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Publisher)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BookName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ISBN)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Publisher)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditBookDetails", new { bookId = item.Id }) |
+                    @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                    @*@Html.ActionLink("Delete", "Delete", new { bookId = item.Id })*@
+                    @Html.ActionLink("Delete", "Delete", new { bookId = item.Id },new { onclick = "return confirm('Are you sure you wish to delete this Book Record?');" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@section scripts
+    {
+    <script src="~/js/book-index.js" asp-append-version="true"></script>
+}

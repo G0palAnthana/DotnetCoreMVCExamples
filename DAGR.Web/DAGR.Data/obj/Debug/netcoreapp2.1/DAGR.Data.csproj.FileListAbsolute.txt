@@ -1,0 +1,9 @@
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\bin\Debug\netcoreapp2.1\DAGR.Data.deps.json
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\bin\Debug\netcoreapp2.1\DAGR.Data.dll
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\bin\Debug\netcoreapp2.1\DAGR.Data.pdb
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\obj\Debug\netcoreapp2.1\DAGR.Data.csprojAssemblyReference.cache
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\obj\Debug\netcoreapp2.1\DAGR.Data.csproj.CoreCompileInputs.cache
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\obj\Debug\netcoreapp2.1\DAGR.Data.AssemblyInfoInputs.cache
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\obj\Debug\netcoreapp2.1\DAGR.Data.AssemblyInfo.cs
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\obj\Debug\netcoreapp2.1\DAGR.Data.dll
+D:\VenugopalSampleCodes\MyUploadedSamples\ASPNET Core\DataAccessRepositories\DAGR.Web\DAGR.Data\obj\Debug\netcoreapp2.1\DAGR.Data.pdb
